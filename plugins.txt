@@ -1,0 +1,69 @@
+############# The official list of the default plugins: https://github.com/jenkinsci/jenkins/blob/master/core/src/main/resources/jenkins/install/platform-plugins.json ###################
+# Organization and Administration
+dashboard-view:2.447.vda_124dd35f11
+cloudbees-folder:6.758.vfd75d09eea_a_1
+configuration-as-code:1512.vb_79d418d5fc8
+antisamy-markup-formatter:2.7
+
+
+#  Build Features: Add general purpose features to your jobs
+build-name-setter:2.2.0
+build-timeout:1.19.1
+config-file-provider:3.11.1
+credentials-binding:523.vd859a_4b_122e6
+embeddable-build-status:237.v37e2c03964c9
+rebuild:1.33.1
+ssh-agent:295.v9ca_a_1c7cc3a_a_
+throttle-concurrents:2.8
+timestamper:1.18
+ws-cleanup:0.41
+
+
+# Build Tools
+ant:475.vf34069fef73c
+gradle:1.40
+msbuild:1.30
+nodejs:1.5.1
+
+# Build Analysis and Reporting
+cobertura:1.17
+htmlpublisher:1.31
+junit:1150.v5c2848328b_60
+warnings-ng:9.20.0
+xunit:3.1.1
+
+# Pipelines and Continuous Delivery
+workflow-aggregator:590.v6a_d052e5a_a_b_5
+github-branch-source:1695.v88de84e9f6b_9
+pipeline-github-lib:38.v445716ea_edda_
+pipeline-stage-view:2.25
+conditional-buildstep:1.4.2
+jenkins-multijob-plugin:623.v03401733c9a_9
+parameterized-trigger:2.45
+copyartifact:1.47
+# cloudbees-bitbucket-branch-source:791.vb_eea_a_476405b  # This is extra
+
+# Source Code Management
+bitbucket:223.vd12f2bca5430
+git:4.12.1
+git-parameter:0.9.18
+github:1.35.0
+gitlab-plugin:1.5.35
+
+# Distributed Builds
+matrix-auth:3.1.5
+pam-auth:1.10
+ldap:2.12
+role-strategy:562.v44e9a_e828d0e
+active-directory:2.26
+authorize-project:1.4.0
+
+# Notifications and Publishing
+email-ext:2.91
+emailext-template:1.5
+mailer:438.v02c7f0a_12fa_4
+
+# Misc
+job-dsl:1.81
+
+# is not part of the default plugin list # RUN jenkins-plugin-cli --plugins folder-auth:1.2
